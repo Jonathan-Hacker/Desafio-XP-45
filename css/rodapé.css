@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Righteous&family=Sarala:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column; 
+}
+
+.conteudo-iframe {
+    height: 120px;
+    width: 100%;
+
+}
+
+
+/* Aquivo header.html */
+.conteudo-cabecalho {
+    background: #2E948A;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    padding: 24px;
+    width: 100%;
+    height: 120px;
+    flex: 1;
+
+}
+
+.conteudo-logo {
+    flex: 20%;
+    margin-left: 10%;
+    text-align: left;
+
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+    flex: 1%;
+    text-align: right;
+    margin-left: 200px;
+
+}
+
+.cabecalho-menu-item {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    text-decoration: none;
+}
+
+/* ------------------------------------- */
+
+/* Rodapé */
+.conteudo-rodape {
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+    background: #2E948A;
+    text-align: center;
+    height: 200px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+#framerodape {
+    height: 200px;
+}
+
+.conteudo-rodape-img {
+    margin-top: 10px;
+    Width: 98.57px;
+    Height: 101.43px;
+    margin-left: 70px;
+
+}
+
+.conteudo-rodape-list {
+    margin-top: 10px;
+    Width: 98.57px;
+    Height: 101.43px;
+    margin-left: 70px;
+}
+
+
+.conteudo-rodape-link {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.conteudo-rodape-link a {
+    font-style: normal;
+    line-height: 23px;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+
+}
+
+.conteudo-rodape-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+.conteudo-rodape-button button {
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 5px;
+    background: #419488;
+    cursor: pointer;
+
+}
+
+@media screen and (max-width: 980px){
+    .conteudo-rodape {
+        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 350px;
+    } 
+    #framerodape {
+        height: 350px;
+        
+    }
+    .conteudo-rodape-img,
+    .conteudo-rodape-list,
+    .conteudo-rodape-link,
+    .conteudo-rodape-button  {
+        width: 100%;
+        margin: 10px;
+        padding: 0;
+    }
+}
+    

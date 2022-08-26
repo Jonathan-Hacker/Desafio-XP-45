@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Righteous&family=Sarala:wght@400;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    flex: 1;
+}
+
+.titulo h1{
+    position: absolute;
+    width: 758px;
+    height: 46px;
+    left: 310px;
+    top: 228px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 57px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+}
+
+.texto-img1{
+    position: absolute;
+width: 293px;
+height: 73.89px;
+left: 154px;
+top: 2714.2px;
+
+font-family: 'Ubuntu';
+font-style: normal;
+font-weight: 300;
+font-size: 17px;
+line-height: 20px;
+text-align: center;
+
+color: #000000;
+}
+
+.button-img1{
+    position: absolute;
+    width: 233px;
+    height: 62.81px;
+    left: 184px;
+    top: 2820.11px;
+    background: #FF4081;
+    border-radius: 62px;
+    color: #FFFFFF;
+    
+}
+
+.titulo p{
+    position: absolute;
+    width: 200px;
+    height: 21px;
+    left: 620px;
+    top: 286px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #9D9D9D;
+}
+
+.retangulo{
+    position: absolute;
+    width: 1032px;
+    height: 465px;
+    left: 204px;
+    top: 381px;
+    background: #C4C4C4;
+}
+
+.texto{
+    position: absolute;
+    width: 1032px;
+    height: 1061px;
+    left: 204px;
+    top: 910px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    font-feature-settings: 'kern' off;
+    color: #000000;
+}
+
+
+
+/* section2 */
+
+.conteudo-principal-section2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: #F7F7F7;
+    width: 1440px;
+    height: 899px;
+    top: 2080px;
+    position: absolute;
+    min-height: 100vh;
+    flex-grow: 1;
+
+}
+
+.conteudo-principal-section2-div1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-principal-section2-div1 img {
+    Width: 288px;
+    Height: 279.06px;
+    top: 2319px;
+    left: 156px;
+}
+
+.conteudo-principal-section2-div2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteudo-principal-section2-div2 img {
+    Width: 238px;
+    Height: 279.06px;
+    top: 2319px;
+    margin-left: 90px;
+}
+
+.conteudo-principal-section2-div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.conteudo-principal-section2-div3 img {
+    Width: 187px;
+    Height: 270px;
+    margin-left: 90px;
+}
+
+.conteudo-principal-section2 p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+    width: 290px;
+}
+
+.conteudo-principal-section2 button {
+    width: 233px;
+    height: 51px;
+    background: #FF4081;
+    border-radius: 62px;
+    border-color: #FF4081;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 62.81px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 10px;
+    cursor: pointer;
+    border: none;
+}
+
+
+#investindo,
+#poupando,
+#independencia {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin: 20px 0 20px 0;
+}
+
+/* Fim da section2 */
+

@@ -1,0 +1,135 @@
+.conteudo-principal {
+    flex: 1 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%px;
+    margin-bottom: 70px;
+}
+
+button{
+    cursor: pointer;
+}
+
+.conteudo-principal-titulo {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-bottom: 20px;
+}
+
+.conteudo-principal-titulo h1 {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+.conteudo-principal-titulo p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+
+.classconteudo {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    gap: 30px;
+    margin-top: 0px;
+    height: 450px;
+
+}
+
+
+.classconteudo-borda {
+    border-bottom: 5px solid #C4C4C4;
+    margin-bottom: 50px;
+}
+
+.classconteudo-img {
+    width: 382px;
+    height: 498px;
+
+}
+
+
+.classconteudo-h2 {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+    margin-bottom: 50px;
+
+}
+
+
+
+.classconteudo-p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.classconteudo-button {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+.conteudo-principal-poupando p {
+    width: 724px;
+    height: 105px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+.conteudo-principal-poupando button {
+    width: 233px;
+    height: 51px;
+    background: #419488;
+    border-radius: 62px;
+
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+#p1{
+    position: absolute;
+    width: 516px;
+    height: 80px;
+    left: 173px;
+    top: 1099px;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+

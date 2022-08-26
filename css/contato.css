@@ -1,0 +1,99 @@
+
+*{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    
+}
+
+
+.div-esquerda{
+    position: absolute;
+    width: 496px;
+    height: 419px;
+    left: 136px;
+    top: 222px;
+    border-radius: 4px;
+}
+
+.div-esquerda > form > h1 {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    margin-top: 0;
+}
+
+#nome{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+   
+}
+
+
+#email{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#mensagem{
+    box-sizing: border-box;
+    position: absolute;
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+.div-direita{
+    position: absolute;
+    width: 444px;
+    height: 444px;
+    left: 833px;
+    top: 199px;
+}
+
+#button{
+    position: absolute;
+    left: 2.02%;
+    right: 79.21%;
+    top: 94.51%;
+    bottom: 0.24%;
+    font-family: 'Nunito';
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    left: 0.6%;
+    right: 77.62%;
+    top: 93.32%;
+    bottom: -0.95%;
+    background: #FF4081;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.div-principal{
+    flex: 1;
+}
